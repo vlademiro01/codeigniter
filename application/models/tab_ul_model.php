@@ -3,7 +3,7 @@ class tab_ul_model extends CI_Model {
 
 	public function __construct()
 	{
-	    $this->load->database('cgr');
+	    $this->load->database('cgr_test');
 	}
 
 	function get_data()
